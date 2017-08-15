@@ -55,12 +55,15 @@
       border-top-left-radius: 0;
       border-top-right-radius: 0;
     }
+	.form-signup indent {
+		padding-left: 100px;
+	}
     </style>
   <body>
 
 <form class="form-signup" action='' method="POST">
     <fieldset>
-
+	
 		<h2 class="form-signin-heading">Sign up</h2>
         <div class="control-group">
             <!-- Username -->
@@ -78,6 +81,7 @@
                 <p class="help-block">Insert your full name(please do not enter any fake name)</p>
             </div>
         </div>
+
 		<div class="control-group">
             <!-- ID -->
             <label class="control-label" for="fullname">ID No:</label>
@@ -94,12 +98,12 @@
                 <p class="help-block">ex:2014-2015</p>
             </div>
         </div>
-		<div class="control-group">
+		<div class="control-group" >
 			<label class="control-label" for="gender">Gender</label>
-			<div class="controls">
+			<p class ="indent" ><div class="controls">
 				<input type="radio" name="gender" value="male" checked> Male<br>
 				<input type="radio" name="gender" value="female"> Female<br>
-			</div>
+			</div></p>
         </div>
         <div class="control-group">
             <!-- E-mail -->

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home page</title>
+
+        <!-- Bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		
+        <link href="css/navbar.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <style>
+            body {
+                padding-top: 50px;
+            }
+            .navbar-template {
+                padding: 40px 15px;
+            }
+
+        </style>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button-->
+                    <a class="navbar-brand" href="#">IPCP-CSECU</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="nav-link disabled"><a href="current_contest.html"  target="" >Current Contest</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Info<b class="caret"></b></a>
+
+                            <ul class="dropdown-menu">
+                            
+                                <li><a href="#">Ranks</a></li>
+                                <li><a href="#">Coaches</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="glyphicon glyphicon-user" aria-hidden="true"></span><b class="caret"></b></a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Settings  &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-wrench" aria-hidden="true"></a></li>
+                                <li><a href="#">Notification(s)&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-bell" aria-hidden="true"> </span></a></li>
+                            
+                                <li class="divider"></li>
+                                <li><a href="#">Log out&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-off" aria-hidden="true"> </span></a></li>
+                                <li class="divider"></li>
+                                
+                                <li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team(s)<b class="caret"></b></a>
+
+                                    <ul class="dropdown-menu">
+                   
+                                        <li><a href="#">Official Team</a></li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Un-Official Team<b class="caret"></b></a>
+
+                                            <ul class="dropdown-menu">
+												<li><a href="#">No Team</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <div class="container">
+			    <div class="col-xs-12">
+					<span>Display panel: </span>
+
+					<input name="collapseGroup" type="image" src="ico/team.png" alt="Team Create" height="20%" width="20%" data-toggle="collapse" data-target=".collapseOne:not(.in)"/>
+					<div class=""
+					<input name="collapseGroup" type="image" src="ico/girls_team.png" alt="Team Create" height="14%" width="14%" data-toggle="collapse" data-target=".collapseOne.in" checked/>
+					
+					<input name="collapseGroup" type="image" src="ico/judges.png" alt="Team Create" height="20%" width="20%" data-toggle="collapse" data-target=".collapseOne.in" checked/>
+
+
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									Header
+								</h4>
+							</div>
+							<div class="collapseOne panel-collapse collapse">
+								<div class="panel-body">
+									<p>Content</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			<!--button>
+				<img src="ico/team.png" alt="Team Create" height="20%" width="20%">
+				<img src="ico/girls_team.png" alt="Team Create" height="14%" width="14%">
+				<img src="ico/judges.png" alt="Team Create" height="20%" width="20%">
+			</button-->
+        </div><!-- /.container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.js"
+          integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+          crossorigin="anonymous"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="js/navbar.js"></script>
+    </body>
+</html>
